@@ -16,10 +16,11 @@ var size = function(){
 var clearLog = function() {
 	size = 0;
 	cache = {};
-	console.log(cache.toString());
+	console.log(cache);
 };
 
 var log = function(request, response, next) {
+	console.log(arguments);
 	if(size >= 10){
 		clearLog();
 	}
