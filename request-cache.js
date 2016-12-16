@@ -9,10 +9,6 @@ var push = function(url) {
 		cache[url] = 1;
 	}
 };
-var size = function(){
-	return size || 0;
-};
-
 var clearLog = function() {
 	size = 0;
 	cache = {};
