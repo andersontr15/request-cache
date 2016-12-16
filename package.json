@@ -1,11 +1,10 @@
 {
   "name": "request-cache.js",
   "version": "1.0.0",
-  "description": "Simple express middleware to cache last 10 requests.
-Stores request urls in an object and appends to request property of express.",
+  "description": "Simple express middleware to cache last 10 requests. Stores request urls in an object and appends to request property of express.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "keywords": [],
   "author": "Theo <theoanderson3@gmail.com> (linkedin.com/in/andersontr15)",
