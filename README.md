@@ -8,9 +8,13 @@ To use in Node:
 
 ```js
 var express = require('express');
+
 var requestCache = require('request-cache');
+
 var app = express();
+
 app.use(requestCache);
+
 app.get('/', function(request, response) {
 	console.log(request.cache) ==> { '/': 1, '/users': 2 }
 });
