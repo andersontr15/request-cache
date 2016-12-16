@@ -1,6 +1,6 @@
 {
   "name": "request-cache.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple express middleware to cache last 10 requests. Stores request urls in an object and appends to request property of express.",
   "main": "index.js",
   "scripts": {
