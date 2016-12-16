@@ -20,7 +20,6 @@ var clearLog = function() {
 };
 
 var log = function(request, response, next) {
-	console.log(arguments);
 	if(size >= 10){
 		clearLog();
 	}
